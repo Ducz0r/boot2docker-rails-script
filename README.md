@@ -47,5 +47,5 @@ This script is NOT 100% tested and might need additional furnishing. It works ni
 
 ## Troubleshooting
 
-- If you see temporary files in your project folder (from Windows host), following approaches might work:
+- If you see temporary _.unison_ files in your project folder (from Windows host), following approaches might work:
   - unmark your project folder (and subfolders) on Windows host as read-only. 
