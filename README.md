@@ -44,3 +44,8 @@ Open the script file `wmake.sh` in your favourite text editor and setup the vari
 
 ## Warning
 This script is NOT 100% tested and might need additional furnishing. It works nicely on my _Windows 8_ system for a relatively lightweight _Ruby on Rails_ web app.
+
+## Troubleshooting
+
+- If you see temporary files in your project folder (from Windows host), following approaches might work:
+  - unmark your project folder (and subfolders) on Windows host as read-only. 
