@@ -49,3 +49,4 @@ This script is NOT 100% tested and might need additional furnishing. It works ni
 
 - If you see temporary _.unison_ files in your project folder (from Windows host), following approaches might work:
   - unmark your project folder (and subfolders) on Windows host as read-only. 
+- If you are getting out of of disk space errors inside your Docker containers, it means that boot2docker virtual machine is full. Run `wmake.sh cclean` to remove all stopped images and free disk space. 
