@@ -119,7 +119,7 @@ if [ $PROCEED -eq 1 ]; then
   elif [ $1 == "clean" ]; then
     exec "$BASH" --login -i -c "docker rmi -f $IMAGE_NAME"
   elif [ $1 == "cclean" ]; then
-    exec "$BASH" --login -i -c "docker rm $(docker ps -q -f status=exited)"
+    exec "$BASH" --login -i -c "docker rm $(docker ps -a -q)"
   fi
 fi
 unset IMAGE_NAME
